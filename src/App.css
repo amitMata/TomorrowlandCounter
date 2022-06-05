@@ -55,5 +55,15 @@ img {
     
   }
 
-  
+  .Shopify {
+    position: fixed;
+    left: 50%;
+    bottom: 15%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width:16em;
+    max-width: 100%;
+    height: auto;
+    
+  }
   

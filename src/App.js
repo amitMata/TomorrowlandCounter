@@ -1,6 +1,7 @@
 import Particle from './components/Particles';
 import './App.css';
 import Countdownlist from './components/Countdownlist';
+import { Spotify } from './components/Spotify';
 
 function App() {
   return (
@@ -14,10 +15,15 @@ function App() {
         
           <Countdownlist/>
         </div>
+
       </div>
+      
       <div className="par">
         <Particle/>
       </div>
+      <div className="Shopify">
+          <Spotify/>
+        </div>
     </div>
   );
 }
